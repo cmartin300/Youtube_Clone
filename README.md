@@ -1,3 +1,5 @@
-# My attempt number 1 at a Youtube clone
+# My 1st at a Youtube clone
+
+### Feb 2021
 
 ## by Chris Martin
