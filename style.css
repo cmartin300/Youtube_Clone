@@ -1,7 +1,11 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
 }
 
 header{
@@ -21,6 +25,7 @@ header{
     margin: 0px 10px;
     cursor: pointer;
 }
+
 .search{
     display: flex;
     align-items: center;
@@ -30,12 +35,14 @@ header{
     margin: 0px 20px;
     cursor: pointer;
 }
+
 .search input{
     width: 30vw;
     padding: 5.2px 10px;
     border-radius: 0px;
     border: 1px solid gray;
 }
+
 .search button{
     background-color: white;
     padding: 5.2px 10px;
@@ -47,8 +54,6 @@ header{
     border-right: 1px solid gray;
     cursor: pointer;
 }
-
-
 
 .icons{
     display: flex;
@@ -64,13 +69,28 @@ header{
 }
 
 main{
-    background-color: brown;
+    background-color: rgb(240, 240, 240);
     height: 95vh;
     display: flex;
 }
+
 .content{
-    flex: 2;
+    flex: 1.75;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
 }
+
+.content iframe{
+    position: absolute;
+    width: 90%;
+    height: 55%;
+}
+
 aside{
     background-color: coral;
     flex: 1;
