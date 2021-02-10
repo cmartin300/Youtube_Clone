@@ -1,4 +1,4 @@
-# My 1st at a Youtube clone
+# My 1st attempt at a Youtube clone
 
 ### Feb 2021
 
