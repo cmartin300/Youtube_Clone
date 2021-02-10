@@ -70,25 +70,106 @@ header {
 
 main {
   background-color: rgb(240, 240, 240);
-  height: 95vh;
+  height: 100%;
   display: flex;
 }
 
 .content {
   flex: 1.75;
-  display: flex;
-  justify-content: center;
-  padding-top: 2rem;
+}
+
+.video {
+  width: 90%;
+  margin: 4rem auto;
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 56.25%; /* 16:9 */
   height: 0;
-  overflow: hidden;
 }
 
 .content iframe {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-video {
   width: 90%;
-  height: 55%;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.video-stats {
+  display: flex;
+  color: rgb(95, 95, 95);
+  padding: 1rem 0rem;
+}
+
+.video-stats p {
+  padding-right: 1rem;
+}
+
+.divider {
+  width: 100%;
+  height: 0.1rem;
+  background-color: rgb(134, 134, 134);
+}
+
+.description-section {
+  padding: 0.5rem 0rem;
+}
+
+.description {
+  padding-bottom: 1rem;
+  padding-left: 7.7rem;
+  padding-top: 2rem;
+}
+
+.video-owner-card {
+  display: flex;
+}
+
+.owner-logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.owner-info {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.owner-subscriber-count {
+  color: rgb(95, 95, 95);
+  font-size: 0.9rem;
+}
+
+.comments {
+  width: 90%;
+  font-size: 1.2rem;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+
+.comment-card {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.comment-profile-pic {
+  width: 5rem;
+  height: 5rem;
+}
+
+.comment-info {
+  padding-left: 2.9rem;
+  padding-top: 1rem;
+}
+
+.comment-username {
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
 }
 
 aside {
