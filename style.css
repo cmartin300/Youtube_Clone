@@ -173,6 +173,39 @@ main {
 }
 
 aside {
-  background-color: coral;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 1;
+  max-width: 50rem;
+}
+
+.video-card{
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.video-card a{
+  padding-right: 1rem;
+}
+
+.thumbnail-container{
+  width: 16.8rem;
+}
+
+.card-content{
+  line-height: 1rem;
+}
+
+.upcoming-title{
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+.upcoming-owner-title,
+.upcoming-about{
+  padding: 0.5rem 0rem;
+  color: rgb(95, 95, 95);
 }
